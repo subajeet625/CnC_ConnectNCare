@@ -1,0 +1,118 @@
+img {
+width: 120px;
+height: auto;
+    object-fit: contain;
+    
+  }
+  
+ #logo {
+   width: 200px;
+   height: auto;
+   padding: 10px 0;
+ }
+  
+    
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: white; /* Set the background color to white */
+    
+    position: sticky;
+    top: 0;
+    z-index: 100; /* Ensure the navbar stays on top of other elements */
+    height: 66px;
+  }
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #fff;
+      /* Adjust the background color as needed */
+      z-index: 100;
+      /* Ensure the navbar appears above other elements */
+      /* Add other styles such as height, padding, etc. */
+    }
+  
+  ul {
+    display: flex;
+    align-items: center;
+    padding-right: 29px;
+  }
+  
+  ul li {
+    list-style-type: none;
+    padding: 1px 15px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+  }
+  .primaryBtn {
+    cursor: pointer;
+    font-weight: bolder;
+    padding: 3px 0px;
+    font-size: 0.8rem;
+    border:transparent;
+    color: #262626;
+    background: transparent;
+    border-radius: 5px;
+    margin-left: 20px;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .primaryBtn:hover {
+    background: linear-gradient(to bottom, #fafafa, #eaeaea);
+  }
+  
+  .primaryBtn:active {
+    background: #e6e6e6;
+  }
+  
+  
+  /*
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+  
+    
+  
+    .nav-menu {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .nav-menu li {
+      margin-left: 20px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #333;
+      cursor: pointer;
+      text-decoration: none;
+    }
+  
+    .primaryBtn {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      padding: 8px 12px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.2s;
+    }
+  
+    .primaryBtn:hover {
+      background-color: #0056b3;
+    /* }  */

@@ -1,0 +1,33 @@
+/* Doctor.css */
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    color: white;
+}
+
+.logo img {
+    width: 232px;
+    /* Adjust the width as needed */
+}
+
+
+/* Other Doctor component styles */
+.text {
+    font-size: 20px;
+    /* Add other relevant styles */
+}
+
+.text {
+    color: #e53e3e;
+    /* Add other relevant styles */
+}
+
+.text{
+    color: #3182ce;
+    /* Add other relevant styles */
+}
